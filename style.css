@@ -20,16 +20,16 @@ h1 {
     font-weight: normal;
     color: #E3AE57;
     position: relative;
-    margin-left: 7em;
-    text-align: left;
+    /*margin-left: 7em;*/
+    text-align: center;
 }
 
 h1 .coursename {
     position: absolute;
     font-size: 2em;
     color: #4A6CD4;
-    left: -3.125em;
-    top: 50%;
+    left: .5em;
+    top: 5%;
     margin-top: -.25em;
 }
 
