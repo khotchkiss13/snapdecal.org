@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto', Trebuchet MS, Tahoma, Sans-Serif;
     font-size: 0.9em;
     margin: 2em;
-    background-color: #232B2B;
+    background-color: #FFFAF5;
 }
 
 h1, h2 {
@@ -20,20 +20,21 @@ h1 {
     font-weight: normal;
     color: #E3AE57;
     position: relative;
-    margin-left: 7em
+    margin-left: 7em;
+    text-align: left;
 }
 
 h1 .coursename {
     position: absolute;
     font-size: 2em;
-    color: #DC3D24;
-    left: -3.5em;
+    color: #4A6CD4;
+    left: -3.125em;
     top: 50%;
     margin-top: -.25em;
 }
 
 h1 a {
-    color: #E3AE57;
+    color: #F3761D;
 }
 
 h1 a:hover {
@@ -41,7 +42,7 @@ h1 a:hover {
 }
 
 h2 {
-    color: #DC3D24;
+    color: #F3761D;
     clear: both;
 }
 
@@ -50,15 +51,16 @@ h3 {
 }
 
 hr {
-    width: 80%;
+    width: 95%;
     border: 0;
-    color: #0072c1;
-    background-color: #0072c1;
-    height: 1px;
+    color: #0494DC;
+    background-color: #0494DC;
+    height: 2px;
 }
 
 ul.courseinfo {
     list-style: none;
+    left: -3.5em;
 }
 
 ul.navigation {
@@ -71,7 +73,7 @@ ul.navigation li {
 }
 
 a {
-    color: #0072c1;
+    color: #0494DC;
     text-decoration: none;
 }
 
@@ -235,4 +237,9 @@ table.tally td {
     background-color: #c1d6e3;
     padding: 0.2em;
     text-align:center
+}
+
+p {
+    position: absolute;
+    bottom: 5px;
 }
