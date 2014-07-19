@@ -42,6 +42,8 @@ h1 a:hover {
 }
 
 h2 {
+    position: relative;
+    left: 2.5%;
     color: #F3761D;
     clear: both;
 }
@@ -60,7 +62,7 @@ hr {
 
 ul.courseinfo {
     list-style: none;
-    left: -3.5em;
+    position: relative;
 }
 
 ul.navigation {
