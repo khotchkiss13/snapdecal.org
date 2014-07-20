@@ -71,7 +71,18 @@ ul.navigation {
 
 ul.navigation li {
     display: inline;
-    margin: 1em;
+    margin: 2%;
+}
+
+ul.topics {
+    position: relative;
+    left: 1.5%;
+}
+
+ul.grading {
+    position: relative;
+    left: 1.5%;
+    list-style: none;
 }
 
 a {
@@ -91,92 +102,38 @@ table.announcements {
 
 table.announcements td.date {
     vertical-align: top;
-    color: #0072c1;
+    color: #0494DC;
     width: 10em;
 }
 
 table#calendar {
-    width: 95%;
+    width: 92%;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
 }
 
 table#calendar th {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.0em;
-    color: #0072c1;
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: #0494DC;
 }
 
 table#calendar td {
-    border: 1px solid #888;
-    background-color: #c1d6e3;
+    border: 1px solid #FFFAF5;
+    background-color: #E3AE57;
     padding: 0.2em;
+    text-align: center;
 }
 
 table#calendar tbody.current td {
-    background-color: #b0d4ed;
-}
-
-table#calendar td.weeknum {
-    text-align: center;
+    background-color: #0494DC;
 }
 
 table#calendar td.reading ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-table#schedule {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table#schedule th {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.2em;
-    color: #0072c1;
-}
-
-table#schedule td {
-    border: 1px solid #888;
-    width: 19%;
-    height: 2em;
-    background-color: #c1d6e3;
-}
-
-table#schedule td.split {
-    width: auto;
-}
-
-table#schedule td.time {
-    width: auto;
-    vertical-align: top;
-    text-align: right;
-    font-size: 0.7em;
-}
-
-table#schedule td.slot {
-    text-align: center;
-    height: auto;
-}
-
-table#schedule td.lecture {
-    background-color: #f8fabb;
-}
-
-table#schedule td.lab {
-    background-color: #74f553;
-}
-
-table#schedule td.dis {
-    background-color: #F18EF5;
-}
-
-table#schedule td.oh {
-    background-color: #b2cfff;
 }
 
 div.footer {
@@ -242,6 +199,7 @@ table.tally td {
 }
 
 p {
-    position: absolute;
-    bottom: 5px;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%
 }
