@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    font-family: 'Roboto', Trebuchet MS, Tahoma, Sans-Serif;
+    font-family: 'Roboto';
     font-size: 0.9em;
     margin: 2em;
     background-color: #FFFAF5;
@@ -169,7 +169,7 @@ table.staff_table td {
 }
 
 .staffer p {
-    font-family: Verdana, Tahoma, Sans-Serif;
+    font-family: 'Roboto';
     font-size: 1.0em;
 }
 
@@ -186,7 +186,7 @@ table.tally {
 }
 
 table.tally th {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', ;
     font-size: 1.2em;
     color: #0072c1;
 }
