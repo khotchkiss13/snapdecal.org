@@ -20,7 +20,6 @@ h1 {
     font-weight: normal;
     color: #E3AE57;
     position: relative;
-    /*margin-left: 7em;*/
     text-align: center;
 }
 
@@ -49,6 +48,9 @@ h2 {
 }
 
 h3 {
+    position: relative;
+    left: 5%;
+    color: #E3AE57;
     clear: both;
 }
 
@@ -70,6 +72,15 @@ ul.navigation {
 }
 
 ul.navigation li {
+    display: inline;
+    margin: 2%;
+}
+
+ul.contact {
+    text-align: left;
+}
+
+ul.contact li {
     display: inline;
     margin: 2%;
 }
@@ -199,6 +210,12 @@ table.tally td {
 }
 
 p {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 3%
+}
+
+p.about {
     position: relative;
     margin-left: 3%;
     margin-right: 3%
