@@ -57,8 +57,8 @@ h3 {
 hr {
     width: 95%;
     border: 0;
-    color: #0494DC;
-    background-color: #0494DC;
+    color: #E3AE57;
+    background-color: #E3AE57;
     height: 2px;
 }
 
@@ -96,8 +96,17 @@ ul.grading {
     list-style: none;
 }
 
+ul.resources {
+    text-align: left;
+}
+
+ul.resources li {
+    display: inline;
+    margin: 10%
+}
+
 a {
-    color: #0494DC;
+    color: #F3761D;
     text-decoration: none;
 }
 
@@ -113,7 +122,7 @@ table.announcements {
 
 table.announcements td.date {
     vertical-align: top;
-    color: #0494DC;
+    color: #F3761D;
     width: 10em;
 }
 
@@ -126,14 +135,15 @@ table#calendar {
 
 table#calendar th {
     font-family: 'Roboto';
-    font-weight: normal;
-    color: #0494DC;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #E3AE57;
+    border-bottom: 2px solid #F3761D;
 }
 
 table#calendar td {
-    border: 1px solid #FFFAF5;
-    background-color: #E3AE57;
-    padding: 0.2em;
+    border-bottom: 1px solid #E3AE57;
+    padding: 10px 8px;
     text-align: center;
 }
 
@@ -147,6 +157,10 @@ table#calendar td.reading ul {
     padding: 0;
 }
 
+/*table#calendar tbody tr:hover td{
+    background-color: #E3AE57;
+}
+*/
 div.footer {
     width: 100%;
     text-align: center;
