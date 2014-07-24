@@ -105,6 +105,15 @@ ul.resources li {
     margin: 10%
 }
 
+ul.l_a {
+    text-align: center;
+}
+
+ul.l_a li {
+    display: inline;
+    margin: 2%;
+}
+
 a {
     color: #F3761D;
     text-decoration: none;
