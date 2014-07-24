@@ -10,13 +10,13 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="shortcut icon" href="Alonzo-favicon.ico" >
 
-    <title>Lecture 1</title>
+    <title>Lecture (Insert Number Here)</title>
 
   </head>
 <body>
-	<h1><a href="index.html"><span class="coursename"><img src="Logo.png" alt="Snap"> </span>Below the Line<img src="Alonzo.gif" alt="Alonzo" align="right" style="position:absolute; right:7.5%"></a><br>Fall 2014</h1>
+  <h1><a href="index.html"><span class="coursename"><img src="Logo.png" alt="Snap"> </span>Below the Line<img src="Alonzo.gif" alt="Alonzo" align="right" style="position:absolute; right:7.5%"></a><br>Fall 2014</h1>
 
-	
+  
   <ul class="courseinfo">
       <li>Facilitators: <a href="developers.html#kyle">Kyle Hotchkiss</a>, <a href="developers.html#natasha">Natasha Sandy</a>, and <a href="developers.html#ava">"Ava" Yuan Yuan</a></li>
       <li>Faculty Sponsor: <a href="developers.html#brian">Brian Harvey</a></li>
@@ -31,12 +31,11 @@
       <li><a href="https://github.com/cs10/snap" target="_blank">CS10 Snap! Github</a></li>
     </ul>
         <hr/>
-    <h2>Lecture 1: Welcome to Snap! Below the Line!</h2>
-    <p>Welcome to Snap! Below the Line, Fall 2014! We are very excited to teach you how to become a Snap! Developer. On this website, we will be providing all of the information that you need for this course! When you click on a lecture topic, you will be brought to a page like this, that will include a brief summary of the day's lesson, and a link to all resources that will be used in class. Each leacture page will open at approximately 11:59 P.M. on the Monday before the class, allowing for all students to be thoroughly prepared!</p>
-    <p>Today's class will focus on introducing you to everything that you need to know in order to succeed in this class.</p>
+    <h2>Lecture (Insert Number Here): (Insert Lesson Topic Here)</h2>
+    <p>(Insert brief summary of the lesson here)</p>
     <h3>Resources:</h3>
     <ul class="resources">
-      <li><a href="https://docs.google.com/a/berkeley.edu/presentation/d/1NUXwrCpjdX3G4Dmz0aARI9ssGmhjFiNyo_d1UWz8cwU/edit?usp=sharing">PowerPoint</a></li>
+      <li>(Insert Link to PowerPoint/Article/Worksheet, etc.)</li>
     </ul>
     <br>
 </body> 

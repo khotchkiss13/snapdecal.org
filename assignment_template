@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="shortcut icon" href="Alonzo-favicon.ico" >
 
-    <title>Lecture 1</title>
+    <title>Assignment (Insert Number Here)</title>
 
   </head>
 <body>
@@ -31,13 +31,28 @@
       <li><a href="https://github.com/cs10/snap" target="_blank">CS10 Snap! Github</a></li>
     </ul>
         <hr/>
-    <h2>Lecture 1: Welcome to Snap! Below the Line!</h2>
-    <p>Welcome to Snap! Below the Line, Fall 2014! We are very excited to teach you how to become a Snap! Developer. On this website, we will be providing all of the information that you need for this course! When you click on a lecture topic, you will be brought to a page like this, that will include a brief summary of the day's lesson, and a link to all resources that will be used in class. Each leacture page will open at approximately 11:59 P.M. on the Monday before the class, allowing for all students to be thoroughly prepared!</p>
-    <p>Today's class will focus on introducing you to everything that you need to know in order to succeed in this class.</p>
-    <h3>Resources:</h3>
-    <ul class="resources">
-      <li><a href="https://docs.google.com/a/berkeley.edu/presentation/d/1NUXwrCpjdX3G4Dmz0aARI9ssGmhjFiNyo_d1UWz8cwU/edit?usp=sharing">PowerPoint</a></li>
-    </ul>
+    <h2>Assignment (Insert Number Here): (Insert Topic Here) (Due (Insert Date Here))</h2>
+    <p>(Insert summary of the assignment, including links to all needed resources)</p>
     <br>
+
+
+    <!-- This code allows for a comment section for the assignments. Each different assignment needs a new discussion generated, so contact Kyle if you need a comments section -->
+
+    
+    <!-- <div id="disqus_thread" style="width: 90%; margin: auto"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'snapassignment1'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
+    
 </body> 
 </html>
