@@ -243,3 +243,12 @@ p.about {
     margin-left: 3%;
     margin-right: 3%
 }
+
+iframe {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border: none;
+    display: block;
+    background-color: #FFFAF5;
+}
