@@ -12,7 +12,7 @@
       <li><a href="index.html">Main</a></li>
       <li><a href="about.html">Course Info</a></li>
       <li><a href="developers.html">Developers</a></li>
-      <li><a href="https://snap.berkeley.edu/run" target="_blank">Snap!</a></li>
+      <li><a href="http://snap.berkeley.edu/" target="_blank">Snap!</a></li>
       <li><a href="https://github.com/cs10/snap" target="_blank">CS10 Snap! GitHub</a></li>
       <li><a href="https://github.com/jmoenig/Snap--Build-Your-Own-Blocks" target="_blank">Official Snap! GitHub</a></li>
       <li><a href="courseresources.html">Course Resources</a></li>
