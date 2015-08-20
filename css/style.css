@@ -14,6 +14,7 @@ h3 {
 	margin-left: 2.5%;
     line-height: 100%;
     color: #F3761D;
+    font-size: 1.4em;
 }
 
 body {
@@ -25,53 +26,100 @@ body {
 }
 
 nav {
+    background-color: #E3AE48;
+    margin: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+nav ul
+{
+    list-style:none;
+    position:relative;
+    margin:0;
+    padding:0
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+nav ul a
+{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    line-height: 2em;
+    padding: .7em ;
+    text-decoration: none;
+}
+
+nav ul a:hover
+{
+    color: #F3761D;;
+}
+
+nav ul ul
+{
+    display: none;
+    top:100%;
+}
+
+nav ul ul li {
+    float:none;
+    width:200px
+}
+
+nav ul ul a {
+    line-height:120%;
+}
+
+
+nav ul li:hover > ul {
+    display: block;
+    color: #333;
+}
+
+/*nav {
 	background-color: #E3AE48;
 	margin: 0;
 	margin-bottom: 2em;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 nav ul {
 	margin: 0;
 	padding: 0;
+    position: relative;
 }
 
 nav ul li {
 	display: inline-block;
-	list-style-type: none;
 	padding-left: .5%;
 	padding-right: .5%;
 }
 
-nav > ul > li > a {
+nav ul li a{
     color: #ffffff;
     display: block;
     line-height: 2em;
-    padding: .3em;
+    padding: .3em .3em;
     text-decoration: none;
 }
 
-nav li > ul li{
-    display: block;
-}
-
-nav  li > ul li a {
-    color: #111;
-    display: block;
-    line-height: 2em;
-    padding: 0.5em 2em;
-    text-decoration: none;
-}
-
-/* Change the background color when mouse over items */
-nav li a:hover {
+nav ul li a:hover {
     color: #F3761D;
 }
-/* display the submenu on mouse over main menu item*/
-nav li:hover > ul{
-    position:absolute;
-    display : block;
+
+nav ul li a:hover > ul{
+    display: block;
+    position: absolute;
 }
+
+/********* Table CSS *********/
 
 table.announcements {
     width: 0%;
@@ -86,16 +134,26 @@ table.announcements td.date {
 }
 
 table#calendar {
-    width: 92%;
+    width: 90%;
     border-collapse: collapse;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
+    margin-bottom: 5em;
+}
+
+table#calendar a {
+    color: #F3761D;
+    text-decoration: none;
+}
+
+table#calendar a:hover {
+    text-decoration: underline;
 }
 
 table#calendar th {
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #E3AE57;
     border-bottom: 2px solid #F3761D;
 }
