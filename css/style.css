@@ -1,12 +1,22 @@
 html {
 	height: 100%;
+    -moz-animation:7s rotateRight infinite linear; 
+    -webkit-animation:7s rotateRight infinite linear; 
 }
 
 .title {
 	margin: 0;
-	margin-right: .5em;
+	padding-right: .3em;
 	color: #ffffff;
 	font-size: 1.5em;
+}
+
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3em;
+    -moz-animation:2s rotateRight infinite linear; 
+    -webkit-animation:2s rotateRight infinite linear; 
 }
 
 h3 {
@@ -15,6 +25,8 @@ h3 {
     line-height: 100%;
     color: #F3761D;
     font-size: 1.4em;
+    -moz-animation:2s rotateRight infinite linear; 
+    -webkit-animation:2s rotateRight infinite linear; 
 }
 
 body {
@@ -22,8 +34,51 @@ body {
 	padding: 0;
 	font-size: 15px;
 	background-color: #FFFAF5;
-	font-family: 'Roboto';
+	font-family: 'Roboto'; 
 }
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+}
+
+.alonzo{ 
+    -moz-animation:2s rotateRight infinite linear; 
+    -webkit-animation:2s rotateRight infinite linear; 
+}
+
+@-moz-keyframes rotateRight{
+    0%{ -moz-transform:rotate(0deg); -moz-transform-origin:50% 50%; }
+    100%{ -moz-transform:rotate(360deg); }
+}
+
+@-webkit-keyframes rotateRight{
+    0%{ -webkit-transform:rotate(0deg); -webkit-transform-origin:50% 50%; }
+    100%{ -webkit-transform:rotate(360deg); }
+}
+
+/********* welcome_message CSS ********
+
+.welcome_message {
+    margin-left: 15%;
+
+}
+
+.welcome_message li {
+    display: inline-block;
+}
+
+.welcome_message h2 {
+    font-size: 3em;
+}
+
+.welcome_message img {
+    width: 20%;
+}
+*/
+
+/********* Nav CSS *********/
 
 nav {
     background-color: #E3AE48;
@@ -78,44 +133,9 @@ nav ul ul a {
 }
 
 
-nav ul li:hover > ul {
+nav ul li:hover > ul li {
     display: block;
     color: #333;
-}
-
-/*nav {
-	background-color: #E3AE48;
-	margin: 0;
-	margin-bottom: 2em;
-    overflow: hidden;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-    position: relative;
-}
-
-nav ul li {
-	display: inline-block;
-	padding-left: .5%;
-	padding-right: .5%;
-}
-
-nav ul li a{
-    color: #ffffff;
-    display: block;
-    line-height: 2em;
-    padding: .3em .3em;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #F3761D;
-}
-
-nav ul li a:hover > ul{
-    display: block;
     position: absolute;
 }
 
@@ -124,7 +144,7 @@ nav ul li a:hover > ul{
 table.announcements {
     width: 0%;
     margin-left: 5%;
-    margin-right: auto;
+    margin-right: 5%;
 }
 
 table.announcements td.date {
@@ -137,7 +157,7 @@ table#calendar {
     width: 90%;
     border-collapse: collapse;
     margin-left: 5%;
-    margin-right: auto;
+    margin-right: 5%;
     margin-bottom: 5em;
 }
 
@@ -147,7 +167,7 @@ table#calendar a {
 }
 
 table#calendar a:hover {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 table#calendar th {
