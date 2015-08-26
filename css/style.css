@@ -1,7 +1,5 @@
 html {
 	height: 100%;
-    -moz-animation:7s rotateRight infinite linear; 
-    -webkit-animation:7s rotateRight infinite linear; 
 }
 
 .title {
@@ -15,8 +13,6 @@ h2 {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 3em;
-    -moz-animation:2s rotateRight infinite linear; 
-    -webkit-animation:2s rotateRight infinite linear; 
 }
 
 h3 {
@@ -25,8 +21,6 @@ h3 {
     line-height: 100%;
     color: #F3761D;
     font-size: 1.4em;
-    -moz-animation:2s rotateRight infinite linear; 
-    -webkit-animation:2s rotateRight infinite linear; 
 }
 
 body {
