@@ -42,6 +42,11 @@ p {
     font-size: 1em;
 }
 
+.topics {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 /*.alonzo{ 
     -moz-animation:2s rotateRight infinite linear; 
     -webkit-animation:2s rotateRight infinite linear; 
