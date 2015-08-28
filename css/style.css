@@ -146,7 +146,6 @@ nav ul li:hover > ul li {
 /********* Table CSS *********/
 
 table.announcements {
-    width: 0%;
     margin-left: 5%;
     margin-right: 5%;
 }
