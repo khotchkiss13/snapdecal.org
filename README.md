@@ -1,13 +1,5 @@
-khotchkiss13.github.io
-======================
+DeCal Course website for the Snap!: Below the Line for Fall 2015 Semester
 
-Course site for the Snap!: Below the Line DeCal at UC Berkeley
+This is the central hub for students enrolled in Snap!: Below the Line, a Student ran decal at the University of California, Berkeley. Students will be able to find the course syllabus, course assignments, and all neccessary resources to excel in the class.
 
-This is the central hub for students enrolled in Snap!: Below the Line, a Student ran decal at
-the University of California, Berkeley. Students will be able to find the course syllabus, 
-course assignments, and all neccessary resources to excel in the class.
-
-This site was created by Kyle Hotchkiss on Thursday, July 17th, 2014, and has yet to be completed.
-All students who are apart of Snap!: Below the Line are welcome to offer their comments on this
-website, as well as well as code to improve the website, which will be reviewed by the instructors
-of the course for inclusion.
+This stie was recreated by Yoon Ho (Tony) Lee on August 19th, 2015. Credit to Kyle Hotchkiss who previously set up the course website for Spring 2015.

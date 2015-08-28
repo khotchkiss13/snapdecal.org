@@ -1,0 +1,199 @@
+html {
+	height: 100%;
+}
+
+.title {
+	margin: 0;
+	padding-right: .3em;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3em;
+}
+
+h3 {
+	position: relative;
+	margin-left: 2.5%;
+    line-height: 100%;
+    color: #F3761D;
+    font-size: 1.4em;
+}
+
+h4 {
+    margin-left: 6%;
+    font-size: 110%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	background-color: #FFFAF5;
+	font-family: 'Roboto'; 
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+}
+
+.topics {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*.alonzo{ 
+    -moz-animation:2s rotateRight infinite linear; 
+    -webkit-animation:2s rotateRight infinite linear; 
+}
+
+@-moz-keyframes rotateRight{
+    0%{ -moz-transform:rotate(0deg); -moz-transform-origin:50% 50%; }
+    100%{ -moz-transform:rotate(360deg); }
+}
+
+@-webkit-keyframes rotateRight{
+    0%{ -webkit-transform:rotate(0deg); -webkit-transform-origin:50% 50%; }
+    100%{ -webkit-transform:rotate(360deg); }
+}*/
+
+/********* welcome_message CSS ********
+
+.welcome_message {
+    margin-left: 15%;
+
+}
+
+.welcome_message li {
+    display: inline-block;
+}
+
+.welcome_message h2 {
+    font-size: 3em;
+}
+
+.welcome_message img {
+    width: 20%;
+}
+*/
+
+/********* Nav CSS *********/
+
+nav {
+    background-color: #E3AE48;
+    margin: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+nav ul
+{
+    list-style:none;
+    position:relative;
+    margin:0;
+    padding:0
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+nav ul a
+{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    line-height: 2em;
+    padding: .7em ;
+    text-decoration: none;
+}
+
+nav ul a:hover
+{
+    color: #F3761D;;
+}
+
+nav ul ul
+{
+    display: none;
+    top:100%;
+}
+
+nav ul ul li {
+    float:none;
+    width:200px
+}
+
+nav ul ul a {
+    line-height:120%;
+}
+
+
+nav ul li:hover > ul li {
+    display: block;
+    color: #333;
+    position: absolute;
+}
+
+/********* Table CSS *********/
+
+table.announcements {
+    width: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table.announcements td.date {
+    vertical-align: top;
+    color: #F3761D;
+    width: 10em;
+}
+
+table#calendar {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5em;
+}
+
+table#calendar a {
+    color: #F3761D;
+    text-decoration: none;
+}
+
+table#calendar a:hover {
+    font-weight: bold;
+}
+
+table#calendar th {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #E3AE57;
+    border-bottom: 2px solid #F3761D;
+}
+
+table#calendar td {
+    border-bottom: 1px solid #E3AE57;
+    padding: 10px 8px;
+    text-align: center;
+}
+
+table#calendar tbody.current td {
+    background-color: #0494DC;
+}
+
+table#calendar td.reading ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
