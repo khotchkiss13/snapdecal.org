@@ -47,7 +47,7 @@ p {
     margin-right: 3%;
 }
 
-/*.alonzo{ 
+.alonzo:hover{ 
     -moz-animation:2s rotateRight infinite linear; 
     -webkit-animation:2s rotateRight infinite linear; 
 }
@@ -60,7 +60,7 @@ p {
 @-webkit-keyframes rotateRight{
     0%{ -webkit-transform:rotate(0deg); -webkit-transform-origin:50% 50%; }
     100%{ -webkit-transform:rotate(360deg); }
-}*/
+}
 
 /********* welcome_message CSS ********
 
